@@ -1,6 +1,6 @@
-class Backer 
-  attr_accessor :backers 
+class Backer
+  attr_accessor :backers
   def initialize(backers)
-    @backers=[] 
-  end 
+    @backers=[]
+  end
 end 
