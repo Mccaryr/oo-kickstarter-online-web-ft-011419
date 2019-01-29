@@ -4,4 +4,9 @@ class Project
     @title=title
     @backers=[]
   end
+
+  def add_backer(Backer)
+    backed_projects.backer << project
+    backed_projects.backer << self
+  end
 end
